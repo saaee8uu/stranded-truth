@@ -11,3 +11,4 @@ A static book-reading website for GitHub Pages.
 
 Your site will appear at:
 `https://YOUR-USERNAME.github.io/stranded-truth/`
+website deployment refresh
