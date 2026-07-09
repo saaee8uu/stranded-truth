@@ -1,10 +1,21 @@
-# Stranded Truth — v0.6 Research Publication
+# Stranded Truth — v0.7 Research Infrastructure
 
-This edition expands the project into five separate spaces:
-1. The Book — long-form narrative and data stories
-2. The Atlas Laboratory — evidence dossiers and research instruments
-3. The Archive — source ledger
-4. The Observatory — dated fast-changing signals
-5. Field Notes — contradictions, corrections and unresolved questions
+This build does not pretend the project is finished.
 
-Upload every file to the repository root and commit to main.
+Added permanent spaces:
+1. Book
+2. Atlas Laboratory
+3. Archive
+4. Observatory
+5. Field Notes
+6. Data Room
+7. Map Room
+8. Visual Archive
+9. Source Registry
+
+Chapter 01 now contains a deeper evidence-backed first expansion using:
+- NFHS-5 child nutrition measures
+- SRS maternal mortality, 2020–22
+- 2024 peer-reviewed intergenerational mobility research
+
+The visual policy explicitly bans fake documentary imagery. Maps require geographic source files. Charts require named datasets, years, populations and limitations.
