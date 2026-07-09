@@ -1,14 +1,14 @@
-# Stranded Truth
+# Stranded Truth — Rebuild v0.1
 
-A static book-reading website for GitHub Pages.
+This package replaces the education-only framing with:
+- a new Chapter 1: **The Country Waiting for You**
+- a professional brutalist homepage
+- **The Stranded Truth Atlas**, containing the full research queue
+- a foundation source desk
+- an explicit evidence protocol
+
+## Important
+The Atlas is deliberately honest about status. Topics marked `RESEARCH QUEUE` are not published conclusions.
 
 ## Publish
-1. Create a GitHub repository named `stranded-truth`.
-2. Upload all files from this folder to the repository root.
-3. Go to Settings → Pages.
-4. Under Build and deployment, choose **Deploy from a branch**.
-5. Select **main** and **/(root)**, then Save.
-
-Your site will appear at:
-`https://YOUR-USERNAME.github.io/stranded-truth/`
-website deployment refresh
+Upload all files to the root of the existing GitHub repository and commit to `main`.

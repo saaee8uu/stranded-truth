@@ -1,0 +1,1 @@
+const q=document.getElementById('atlasSearch'),cards=[...document.querySelectorAll('.topic-card')],count=document.getElementById('resultCount');function run(){const s=q.value.trim().toLowerCase();let n=0;cards.forEach(c=>{const ok=!s||c.dataset.search.includes(s);c.style.display=ok?'block':'none';if(ok)n++});count.textContent=n+' visible'}q.addEventListener('input',run);
