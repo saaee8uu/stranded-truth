@@ -103,3 +103,9 @@ footer{color:#8f98aa;border-color:var(--line)}
   .topic-grid{grid-template-columns:1fr!important}
   .status{display:none}
 }
+
+.research-verdict{display:inline-block;background:#ffb84d;color:#111;padding:8px 10px;border-radius:999px;font:800 10px Arial,sans-serif;letter-spacing:.08em;margin:0 0 18px}
+#dossier strong{display:block;margin-top:22px;font:800 11px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+#dossier ul,#dossier ol{line-height:1.6;padding-left:22px}
+#dossier li{margin:8px 0}
+.research-note{padding:14px;border-left:4px solid #ffb84d;background:rgba(255,184,77,.12);font-size:13px;line-height:1.5}
