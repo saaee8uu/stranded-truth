@@ -109,3 +109,28 @@ footer{color:#8f98aa;border-color:var(--line)}
 #dossier ul,#dossier ol{line-height:1.6;padding-left:22px}
 #dossier li{margin:8px 0}
 .research-note{padding:14px;border-left:4px solid #ffb84d;background:rgba(255,184,77,.12);font-size:13px;line-height:1.5}
+
+
+/* v0.5 — Separate Book and Atlas spaces */
+.worlds{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:70px 0;border-bottom:1px solid var(--ink)}
+.world-card{min-height:360px;padding:34px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid var(--ink)}
+.world-card h2{font-size:44px;line-height:1;margin:16px 0}.world-card p{font-size:18px;line-height:1.55;max-width:480px}
+.world-card a{font:700 11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-top:20px}
+.book-world{background:var(--paper)}.atlas-world{background:#111;color:#f4efe4}
+.world-label,.eyebrow{font:700 10px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.book-library{padding-top:90px}.book-library>h2{font-size:54px;margin:14px 0}.section-intro{font-size:22px;line-height:1.5;max-width:720px;color:var(--muted);margin-bottom:36px}
+
+.chapter-tools{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);font:700 10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.chapter-map{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--ink);margin:34px 0 0}
+.chapter-map div{padding:18px}.chapter-map div+div{border-left:1px solid var(--ink)}
+.chapter-map b,.chapter-map span{display:block}.chapter-map b{font:700 10px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}.chapter-map span{font-size:15px;line-height:1.45;color:var(--muted)}
+.opening-scene{margin:34px -70px 50px;padding:46px 70px;background:#171717;color:#f5f0e5}
+.opening-scene p{font-size:26px;line-height:1.55;margin:14px 0 0}.scene-label,.figure-kicker{font:700 10px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.data-figure{margin:60px -60px;padding:34px;border:1px solid var(--ink);background:var(--paper)}
+.orbit-map{min-height:380px;position:relative;border:1px solid var(--line);border-radius:50%;margin:24px 0;display:flex;align-items:center;justify-content:center}
+.orbit-map span{position:absolute;font:700 11px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:var(--paper);padding:8px}
+.orbit-map .core{font-size:18px;border:1px solid var(--ink);padding:20px}.orbit-map span:nth-child(2){top:7%;left:45%}.orbit-map span:nth-child(3){top:24%;right:8%}.orbit-map span:nth-child(4){bottom:20%;right:8%}.orbit-map span:nth-child(5){bottom:7%;left:45%}.orbit-map span:nth-child(6){bottom:24%;left:8%}.orbit-map span:nth-child(7){top:24%;left:8%}
+.data-figure figcaption{font:13px/1.5 Arial,sans-serif;color:var(--muted)}
+.interlude{margin:70px -70px;padding:55px 70px;background:#d9ff43;color:#111}
+.interlude>span{font:700 10px Arial,sans-serif;letter-spacing:.16em}.interlude h2{margin:16px 0 20px;font-size:44px}.interlude p{font-size:20px}.interlude a{font:700 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
+@media(max-width:760px){.worlds{grid-template-columns:1fr}.world-card{min-height:300px}.chapter-map{grid-template-columns:1fr}.chapter-map div+div{border-left:0;border-top:1px solid var(--ink)}.opening-scene,.data-figure,.interlude{margin-left:0;margin-right:0;padding-left:24px;padding-right:24px}.orbit-map{min-height:300px}.book-library>h2{font-size:42px}}
