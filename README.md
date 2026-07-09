@@ -1,15 +1,14 @@
-# Stranded Truth — v0.2
+# Stranded Truth — v0.3
 
-This upgrade keeps the existing design and content, while fixing the Atlas UX.
+## What changed
+- Complete visual redesign: deep editorial navy, warm paper, amber + sky accents.
+- Richer cards, hover motion, glassy panels, stronger typography and responsive mobile layout.
+- Homepage and Atlas language polished.
+- Atlas remains fully searchable with all 422 clickable dossiers.
+- Dossier framing improved so the research workflow feels intentional rather than empty.
 
-## Changed
-- Homepage Atlas marker changed from `A` to `02`.
-- Removed the odd black empty grid cells.
-- Every one of the 422 Atlas cards is now clickable and keyboard accessible.
-- Every topic opens a structured live research dossier with claim, evidence, counter-evidence, mechanism, connections, verdict and 10 research questions.
-- Search still works across all 422 topics.
+## Research integrity
+The 422 dossiers are still research frameworks. Real claims, statistics, citations, counter-evidence and verdicts must be researched and added source-by-source; this release does not fabricate them.
 
-## Important
-The 422 dossiers are research frameworks, not fabricated conclusions. Evidence and verdicts must be filled from real sources.
-
+## Deploy
 Upload all seven files to the repository root and commit to `main`.

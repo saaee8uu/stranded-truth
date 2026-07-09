@@ -20,3 +20,86 @@ footer{border-top:1px solid var(--ink);padding:28px 0 50px;color:var(--muted);fo
 .topic-grid{background:transparent;gap:0;border-right:0;border-bottom:0}.topic-card{border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);cursor:pointer;transition:background .15s ease,transform .15s ease}.topic-card:hover,.topic-card:focus{background:var(--acid);outline:0}.topic-links{font-weight:700;color:var(--ink)}
 .dossier-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;z-index:20;transition:opacity .2s}.dossier-backdrop.open{opacity:1;pointer-events:auto}.dossier{position:fixed;right:0;top:0;width:min(760px,94vw);height:100vh;background:var(--paper);z-index:21;transform:translateX(102%);transition:transform .25s ease;overflow:auto;border-left:1px solid var(--ink)}.dossier.open{transform:none}.dossier-inner{padding:42px 38px 80px}.dossier-close{position:sticky;float:right;top:16px;margin:16px 16px 0 0;width:44px;height:44px;border:1px solid var(--ink);background:var(--paper);font-size:28px;cursor:pointer;z-index:2}.dossier-system{margin-top:18px;font:700 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}.dossier h2{font-size:clamp(42px,7vw,72px);line-height:.92;margin:18px 0 24px}.dossier-note{font-size:18px;line-height:1.5;border-top:4px solid var(--ink);padding-top:18px}.dossier-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink);border-left:1px solid var(--ink);margin-top:30px}.dossier-grid section{padding:18px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);min-height:170px}.dossier-grid b{font:700 10px Arial,sans-serif;letter-spacing:.08em}.dossier-grid p{font-size:15px;line-height:1.45;color:var(--muted)}.dossier-questions{margin-top:38px}.dossier-questions h3{font-size:30px}.dossier-questions li{margin:0 0 14px;padding-left:8px;line-height:1.45}.dossier-open{overflow:hidden}
 @media(max-width:760px){.dossier-inner{padding:32px 20px 70px}.dossier-grid{grid-template-columns:1fr}.topic-card{min-height:150px}}
+
+
+/* ===== STRANDED TRUTH v0.3 VISUAL SYSTEM ===== */
+:root{
+  --bg:#0b1020;--paper:#f4efe3;--ink:#10131a;--muted:#8d94a6;
+  --line:rgba(255,255,255,.14);--acid:#ffb84d;--blue:#7dd3fc;
+  --panel:#121a2d;--panel2:#172238;--cream:#fffaf0;
+}
+body{
+  background:
+    radial-gradient(circle at 12% 0%,rgba(125,211,252,.10),transparent 30rem),
+    radial-gradient(circle at 90% 8%,rgba(255,184,77,.10),transparent 28rem),
+    var(--bg);
+  color:#f7f3e9;
+}
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;z-index:-1;
+  background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:42px 42px;
+}
+.shell,.atlas-shell{max-width:1280px}
+.topbar{border-color:var(--line);padding:18px 0;position:relative;z-index:2}
+.brand{font-family:Arial,sans-serif;font-weight:900;letter-spacing:.08em}
+.status{color:#aeb6c8}
+.hero{min-height:84vh;border-color:var(--line);position:relative;overflow:hidden}
+.hero:after{content:"ST";position:absolute;right:-.03em;bottom:-.18em;font:900 clamp(180px,34vw,470px)/1 Arial,sans-serif;color:rgba(255,255,255,.025);z-index:-1}
+.kicker{color:var(--acid)}
+.hero h1,.atlas-hero h1{color:var(--cream);text-shadow:0 14px 50px rgba(0,0,0,.28)}
+.subtitle{color:#c7cedd;max-width:850px}
+.button{border-color:rgba(255,255,255,.35);transition:.2s ease;border-radius:999px}
+.button:hover{transform:translateY(-2px);background:#fff;color:#0b1020}
+.button.primary{background:var(--acid);color:#111;border-color:var(--acid)}
+.meta{color:#9da6ba}
+.manifesto,.section,.atlas-hero,.method,.atlas-group{border-color:var(--line)}
+.manifesto blockquote{color:var(--cream)}
+.toc{border-color:var(--line)}
+.toc a{border-color:var(--line);transition:.2s ease;padding:26px 14px}
+.toc a:hover{background:rgba(255,255,255,.06);padding-left:24px}
+.atlas-hero{padding-top:100px}
+.atlas-hero>p{color:#c5ccda}
+.atlas-stats{border-color:var(--line);background:rgba(255,255,255,.035);backdrop-filter:blur(12px)}
+.atlas-stats div{border-color:var(--line)}
+.atlas-stats strong{color:var(--acid)}
+.method{background:linear-gradient(135deg,rgba(255,184,77,.07),rgba(125,211,252,.04));padding:48px 34px;margin-top:30px;border:1px solid var(--line);border-radius:24px}
+.protocol{border-color:var(--line)}
+.protocol div{border-color:var(--line)}
+.warning{background:var(--acid);color:#111;border-radius:12px}
+.searchbar{top:0;background:rgba(11,16,32,.88);backdrop-filter:blur(18px);border-color:var(--line);padding:20px 0}
+.searchbar input{color:#fff}
+.searchbar input::placeholder{color:#7f899e}
+.group-head h2{color:var(--cream)}
+.topic-grid{gap:16px}
+.topic-card{
+  background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025));
+  border:1px solid var(--line)!important;border-radius:18px!important;
+  padding:24px!important;min-height:210px;transition:.22s ease;
+  box-shadow:0 16px 45px rgba(0,0,0,.12)
+}
+.topic-card:hover{transform:translateY(-5px);border-color:rgba(255,184,77,.6)!important;background:linear-gradient(145deg,rgba(255,184,77,.12),rgba(125,211,252,.06))}
+.topic-card h3{font-size:25px!important;color:#fff}
+.topic-card p{color:#aeb6c8}
+.topic-state{color:var(--acid)!important}
+.topic-links{color:var(--blue)!important}
+footer{color:#8f98aa;border-color:var(--line)}
+.reader{max-width:820px}
+.reader-head{border-color:var(--line)}
+.reader-head h1{color:var(--cream)}
+.dek{color:#b6bfd0}
+.prose{color:#e9e5dc}
+.prose h2{color:#fff}
+.pull{border-color:var(--acid);color:var(--cream)}
+.progress{background:linear-gradient(90deg,var(--acid),var(--blue))}
+#dossierBackdrop{background:rgba(3,7,18,.78)!important;backdrop-filter:blur(6px)}
+#dossier{background:var(--paper)!important;color:var(--ink)!important;box-shadow:-30px 0 80px rgba(0,0,0,.45)}
+#dossier .topic-state{color:#8a4b00!important}
+@media(max-width:760px){
+  .atlas-stats{grid-template-columns:repeat(2,1fr)}
+  .protocol{grid-template-columns:1fr 1fr}
+  .method{padding:28px 18px;border-radius:16px}
+  .topic-grid{grid-template-columns:1fr!important}
+  .status{display:none}
+}
