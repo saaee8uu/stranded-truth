@@ -1,14 +1,15 @@
-# Stranded Truth — Rebuild v0.1
+# Stranded Truth — v0.2
 
-This package replaces the education-only framing with:
-- a new Chapter 1: **The Country Waiting for You**
-- a professional brutalist homepage
-- **The Stranded Truth Atlas**, containing the full research queue
-- a foundation source desk
-- an explicit evidence protocol
+This upgrade keeps the existing design and content, while fixing the Atlas UX.
+
+## Changed
+- Homepage Atlas marker changed from `A` to `02`.
+- Removed the odd black empty grid cells.
+- Every one of the 422 Atlas cards is now clickable and keyboard accessible.
+- Every topic opens a structured live research dossier with claim, evidence, counter-evidence, mechanism, connections, verdict and 10 research questions.
+- Search still works across all 422 topics.
 
 ## Important
-The Atlas is deliberately honest about status. Topics marked `RESEARCH QUEUE` are not published conclusions.
+The 422 dossiers are research frameworks, not fabricated conclusions. Evidence and verdicts must be filled from real sources.
 
-## Publish
-Upload all files to the root of the existing GitHub repository and commit to `main`.
+Upload all seven files to the repository root and commit to `main`.
