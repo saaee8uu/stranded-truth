@@ -1,21 +1,19 @@
-# Stranded Truth — v0.7 Research Infrastructure
+# Stranded Truth — v0.8 Editorial Build
 
-This build does not pretend the project is finished.
+This build directly addresses the visible failures in v0.7.
 
-Added permanent spaces:
-1. Book
-2. Atlas Laboratory
-3. Archive
-4. Observatory
-5. Field Notes
-6. Data Room
-7. Map Room
-8. Visual Archive
-9. Source Registry
+## Completed in this build
+- Replaced the tiny four-link Book contents with an eight-part life-course architecture.
+- Expanded Chapter 01 into a genuine long-form editorial page with narrative, evidence plates, data story, counter-evidence, method, system connections and a closing transition.
+- Added real documentary photographs from Wikimedia Commons with provenance and source records.
+- Replaced the blank map experience with a clearly labelled mechanism schematic and a publication queue for real geographic layers.
+- Expanded the Data Room with actual charted NFHS-5 values and explicit limitations.
+- Expanded the Source Registry from four minimal rows to six records with a limitation column.
+- Added persistent cross-space navigation.
+- Added responsive editorial components for desktop and mobile.
 
-Chapter 01 now contains a deeper evidence-backed first expansion using:
-- NFHS-5 child nutrition measures
-- SRS maternal mortality, 2020–22
-- 2024 peer-reviewed intergenerational mobility research
+## Non-negotiable rule
+No fake map is presented as geographic evidence. No generated image is presented as documentary photography. Every major number must name its dataset, period and population.
 
-The visual policy explicitly bans fake documentary imagery. Maps require geographic source files. Charts require named datasets, years, populations and limitations.
+## Next research build
+The next build should add verified geographic files and district/state tables before publishing choropleth maps, and continue converting Atlas research-queue dossiers into evidence-backed dossiers.
