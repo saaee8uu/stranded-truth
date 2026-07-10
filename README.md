@@ -21,3 +21,7 @@ The next build should add verified geographic files and district/state tables be
 
 ## v1.0 evidence expansion
 Research tools moved to the front; chapter-to-laboratory bridges added; Atlas generic empty states replaced with topic-specific research briefs; Data, Maps, Visuals and Sources expanded with evidence-first interfaces.
+
+
+## v1.1
+Added unified Research Index, chapter-to-laboratory bridges, expanded evidence charts, and visible map-layer research routes.
