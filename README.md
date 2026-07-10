@@ -25,3 +25,10 @@ Research tools moved to the front; chapter-to-laboratory bridges added; Atlas ge
 
 ## v1.1
 Added unified Research Index, chapter-to-laboratory bridges, expanded evidence charts, and visible map-layer research routes.
+
+
+## v1.2 Depth Pass
+- Part II Family chapters replaced with topic-specific long-form research lanes.
+- Direct chapter-to-Atlas dossier links added.
+- Atlas life-stage pathways added above the laboratory.
+- Generic Atlas card action text replaced with professional dossier language.
