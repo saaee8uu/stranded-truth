@@ -13,8 +13,16 @@ function openDossier(card){
    con.innerHTML=`<strong>Source trail</strong><ol>${d.sources.map(x=>`<li>${x}</li>`).join('')}</ol><p class="research-note">Research status: evidence-backed first edition. Source links and page-level citations are being expanded in the next pass.</p>`;
    ol.innerHTML='<li>This dossier now contains a researched first finding. Open questions will be added only where evidence remains unresolved.</li>';
  } else {
-   claim.textContent=`INVESTIGATION BRIEF — Establish what is actually claimed about “${t}”, measure its scale with primary evidence, identify who is affected, and test where the popular narrative fails or overreaches.`;
-   con.textContent=`SYSTEM MAP — Trace the strongest evidence-backed links between ${t} and education, family, work, money, law, geography, technology, health and political power. No connection is treated as proven until sourced.`;
+   const groupBriefs={
+'The Family':'Test how household authority, care, property, gender, reputation and intergenerational transfer shape '+t+'.',
+'Childhood':'Measure how '+t+' changes safety, nutrition, time, learning and later opportunity across place and class.',
+'Education':'Compare access, quality, incentives and outcomes around '+t+' using UDISE+, surveys, law and independent research.',
+'Work':'Trace '+t+' through PLFS indicators, informality, wages, migration, recruitment and worker protections.',
+'Money':'Follow who finances, owns, borrows, pays and absorbs risk in '+t+'.',
+'Politics':'Separate constitutional design, administrative practice, political incentives and lived experience around '+t+'.'};
+   const brief=groupBriefs[g]||('Investigate '+t+' as a system: scale, geography, institutions, incentives, lived effects and change over time.');
+   claim.innerHTML=`<span class="research-verdict queue">ACTIVE RESEARCH DOSSIER</span><strong>Research brief</strong><p>${brief}</p><strong>Evidence required</strong><ul><li>Primary government series or law establishing scale and definitions.</li><li>At least one independent research source testing mechanism or causality.</li><li>Regional or group comparison that prevents a misleading national average.</li><li>Counter-evidence that could weaken the strongest version of the claim.</li></ul><strong>Mechanism to test</strong><p>Identify the institution, incentive, market, law, household practice or geographic constraint through which ${t} produces an outcome.</p>`;
+   con.innerHTML=`<strong>Connected reading</strong><p><a href="index.html#book">Find the related Book part</a> · <a href="data-room.html">Open data</a> · <a href="map-room.html">Open maps</a> · <a href="source-registry.html">Check sources</a></p><strong>Dossier standard</strong><p>No verdict is published until claim, evidence, counter-evidence, mechanism, geography and source limitations are filled.</p>`;
    ol.innerHTML='';questions(t).forEach(x=>{const li=document.createElement('li');li.textContent=x;ol.appendChild(li)});
  }
  drawer.classList.add('open');backdrop.classList.add('open');drawer.setAttribute('aria-hidden','false');document.body.classList.add('dossier-open');
