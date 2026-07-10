@@ -1,0 +1,13 @@
+{
+  "base": "v2.0 Major Consolidated Build",
+  "project_files": 119,
+  "chapter_pages": 100,
+  "interactive_explorer": true,
+  "interactive_map_script": true,
+  "research_data_packs": [
+    "nutrition",
+    "labour",
+    "groundwater"
+  ],
+  "blank_image_sources": 0
+}

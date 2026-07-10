@@ -1,0 +1,59 @@
+{
+  "nutrition": {
+    "title": "Child nutrition \u00b7 India \u00b7 NFHS-5",
+    "subtitle": "Children under five, 2019\u201321",
+    "labels": [
+      "Stunted",
+      "Wasted",
+      "Underweight"
+    ],
+    "values": [
+      35.5,
+      19.3,
+      32.1
+    ],
+    "unit": "%",
+    "source": "NFHS-5 India Report",
+    "limit": "These indicators overlap and must not be added together."
+  },
+  "labour": {
+    "title": "Female labour-force participation",
+    "subtitle": "Usual status, age 15+, India",
+    "labels": [
+      "2017\u201318",
+      "2018\u201319",
+      "2019\u201320",
+      "2020\u201321",
+      "2021\u201322",
+      "2022\u201323",
+      "2023\u201324"
+    ],
+    "values": [
+      23.3,
+      24.5,
+      30.0,
+      32.5,
+      32.8,
+      37.0,
+      41.7
+    ],
+    "unit": "%",
+    "source": "Periodic Labour Force Survey",
+    "limit": "Participation does not by itself measure earnings, hours, security or job quality."
+  },
+  "groundwater": {
+    "title": "India groundwater balance \u00b7 2024",
+    "subtitle": "Billion cubic metres",
+    "labels": [
+      "Annual recharge",
+      "Annual extraction"
+    ],
+    "values": [
+      446.9,
+      245.64
+    ],
+    "unit": " BCM",
+    "source": "National Compilation on Dynamic Ground Water Resources of India, 2024",
+    "limit": "National totals conceal aquifer, state and assessment-unit variation."
+  }
+}
