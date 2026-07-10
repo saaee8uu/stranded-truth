@@ -1,0 +1,13 @@
+{
+  "master_base": "v2.2 Filled Visual Research Build",
+  "claude_handoff_integrated": true,
+  "total_files": 127,
+  "html_pages": 112,
+  "chapter_pages": 100,
+  "full_claude_chapter_drafts": 4,
+  "expanded_chapter_research_editions": 96,
+  "dedicated_index_space": true,
+  "homepage_merged_index_remaining": false,
+  "blank_img_src": 0,
+  "broken_local_image_refs": 0
+}
