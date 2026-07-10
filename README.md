@@ -17,3 +17,7 @@ No fake map is presented as geographic evidence. No generated image is presented
 
 ## Next research build
 The next build should add verified geographic files and district/state tables before publishing choropleth maps, and continue converting Atlas research-queue dossiers into evidence-backed dossiers.
+
+
+## v1.0 evidence expansion
+Research tools moved to the front; chapter-to-laboratory bridges added; Atlas generic empty states replaced with topic-specific research briefs; Data, Maps, Visuals and Sources expanded with evidence-first interfaces.
